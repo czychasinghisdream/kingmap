@@ -1,0 +1,145 @@
+.contform{
+    box-shadow: 10px 10px 19px 10px rgb(82, 203, 216);
+    margin-top: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    width: 50%;
+    height: 100%vh;
+    border: none;
+    background: lightblue;
+    outline: none;
+    margin-left: 25%;
+    animation: bounce;
+    animation-duration: 800ms;
+    animation-delay: 1s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form form{
+   
+    animation: bounce;
+    animation-duration: 1s;
+    
+    
+}
+
+input[type=submit]{
+  height: 40px;
+   width: 100%;
+   font-family: myfont;
+   font-size:xx-large;
+   color: rgb(232, 169, 53);
+  border: none;
+  
+}
+input[type=submit]:hover{
+    
+    transform: translatey(-10px);
+    transition: 0.5s; 
+    border: solid rgb(183, 206, 102);
+    box-shadow: 40px 30px 50px rgb(215, 220, 72);
+
+  }
+
+  .form input[type=text]{
+    border-bottom-width: 20%;
+    height: 40px;
+    font-size: x-large;
+
+ 
+ }
+ ul li{
+    margin-left: 140px;
+ }
+.form input[type=text]{
+  
+    border: none;
+    outline: gold;
+    height: 40px;
+    font-size: x-large;
+
+ 
+ }
+ .form input[type=text]:focus{
+    transform: scaley(6px);
+   transition: 0.1s;
+    border-bottom: 4px solid green;
+    height: 40px;
+    font-size: x-large;
+
+
+ }
+ .nav h2{
+    margin-left: 40px;
+     font-family: myfont;
+     color: whitesmoke;
+     letter-spacing: 4px;
+ }
+ .nav{
+    
+     width: 100%;
+     height: 6vh;
+     background: linear-gradient(rgb(235, 235, 235) , rgb(235, 243, 243));
+  
+    
+    
+    box-shadow: 3px 10px 3px 4px lightblue;
+     
+ }
+ ul{
+     margin-left: 40%;
+     list-style: none;
+     display: flex;
+     margin-top: 1%;
+ 
+     animation: slideInRight; 
+     animation-duration: 5s;
+ 
+ }
+ 
+ ul h2{
+ 
+     margin-left: 30%;
+ }
+ li a{
+    
+     animation: slideInRight; 
+     animation-duration: 2s;
+ }
+ 
+ ul li a{
+    
+     width: 160px;
+     border: 1px solid rgb(115, 139, 211);
+     border-top:none ;
+     border-bottom: none;
+     border-left: none;
+ 
+     margin-left: 70px;
+     text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bolder;
+     color: black;
+     letter-spacing: 3px ;
+ 
+   
+ }
+ .container2 h1{
+   
+     animation: slideInRight; 
+     animation-duration: 2s;
+ }
+ li a:hover{
+     color: brown;
+     letter-spacing: 15px;
+     transition: 0.6s ease-in-out;
+     width: 160px;
+     border: 8px solid rgb(115, 139, 211);
+     border-top:none ;
+     border-bottom: none;
+     border-left: none;
+  
+ 
+ }

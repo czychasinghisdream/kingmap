@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: myfont ;
+    src: url(Redshine.ttf);
+}
+
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.co{
+    width: 50px;
+    background: red;
+}
